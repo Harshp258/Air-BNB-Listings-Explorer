@@ -3,13 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const ListingDetails = ({ listing }) => {
   if (!listing) {
-    return <p>Loading...</p>; // Add loading state if needed
+    return <p>Loading...</p>; 
   }
 
   return (
     <Container>
       <Row>
-        {/* Left Column - Image */}
+        
         <Col lg>
         <img
         id="photo"

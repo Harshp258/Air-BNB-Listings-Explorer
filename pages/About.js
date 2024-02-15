@@ -21,15 +21,13 @@ I am enthusiastic about leveraging my knowledge and hands-on experience to contr
 
 I am actively seeking opportunities to further enhance my skills and make meaningful contributions to innovative projects. I look forward to the exciting journey ahead and the prospect of bringing my enthusiasm, creativity, and technical prowess to a dynamic web development role.          </p>
 
-          {/* Link to a specific listing */}
+          
           
             <Link href={`/listing/${listing._id}`} passHref>
               <Card.Link>View a specific listing</Card.Link>
             </Link>
         </Card.Body>
       </Card>
-
-      {/* ListingDetails component with the data from getStaticProps */}
       <ListingDetails listing={listing} />
     </div>
   );
