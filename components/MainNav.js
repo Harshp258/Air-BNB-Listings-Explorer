@@ -13,7 +13,7 @@ export default function MainNav() {
     <>
       <Navbar expand="lg" className="bg-dark">
         <Container>
-          <Navbar.Brand style={{ color: 'white' }}>
+          <Navbar.Brand style={{ color: "white" }}>
             <Link href="/" passHref legacyBehavior>
               <Nav.Link style={navStyle}>Harsh's Premium Listings</Nav.Link>
             </Link>

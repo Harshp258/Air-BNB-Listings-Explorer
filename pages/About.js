@@ -21,7 +21,7 @@ I am enthusiastic about leveraging my knowledge and hands-on experience to contr
 
 I am actively seeking opportunities to further enhance my skills and make meaningful contributions to innovative projects. I look forward to the exciting journey ahead and the prospect of bringing my enthusiasm, creativity, and technical prowess to a dynamic web development role.       
 
-My dream house should be loacted near Oceans , that sound of Waves just soothes the  soul and makes you feel at home. One of my Favourite AirBNB location is <Link href={`/listing/${listing._id}`} passHref>
+My dream house should be loacted near Oceans , that sound of Waves just soothes the  soul and makes you feel at home. One of my favorite AirBNB location is <Link href={`/listing/${listing._id}`} passHref>
               <Card.Link>Ocean View Waikiki Marina</Card.Link>
             </Link>
 </p>
