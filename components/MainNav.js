@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 export default function MainNav() {
   const navStyle = {
-    color: 'white',
-    fontFamily: 'Playfair Display, serif',
-    textDecoration: 'none',
+    color: "white",
+    fontFamily: "Playfair Display, serif",
+    textDecoration: "none",
   };
 
   return (
