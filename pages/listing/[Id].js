@@ -10,12 +10,6 @@ const Listing = () => {
   const { data, error, isValidating } = useSWR(`https://listingsapi1.onrender.com/api/listings/${Id}`);
 
   useEffect(() => {
-    if (error) {
-      console.error("Error fetching listing:", error);
-    }
-  }, [error]);
-
-  useEffect(() => {
     if (!data) {
       console.error("Listing data not available.");
     }
