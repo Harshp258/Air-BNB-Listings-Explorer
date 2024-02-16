@@ -13,7 +13,7 @@ const about = ({ listing }) => {
       <Card>
         <Card.Body>
           <p>
-          I'm thrilled to introduce myself as Harsh Patel, a dedicated final-semester student in the Computer Programming course at Seneca College. As I approach the culmination of my academic journey, I am eager to channel my skills and passion into a full-time career in Web Development.
+          I am thrilled to introduce myself as Harsh Patel, a dedicated final-semester student in the Computer Programming course at Seneca College. As I approach the culmination of my academic journey, I am eager to channel my skills and passion into a full-time career in Web Development.
 
 Throughout my academic pursuits, I have honed my software development expertise, particularly in crafting dynamic and responsive web applications. My proficiency extends to languages such as JavaScript, NodeJS, and Python, providing me with a versatile skill set to tackle diverse challenges in the web development landscape.
 
