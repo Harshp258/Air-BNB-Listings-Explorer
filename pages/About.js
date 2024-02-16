@@ -43,7 +43,7 @@ export async function getStaticProps() {
     const listing = await res.json();
 
     if (!listing) {
-      console.error('Listing data is null or undefined');
+      console.error("Listing data is null or undefined");
       return {
         notFound: true,
       };
@@ -55,7 +55,7 @@ export async function getStaticProps() {
       },
     };
   } catch (error) {
-    console.error('Error fetching listing:', error);
+    console.error("Error fetching listing:", error);
     return {
       notFound: true,
     };
