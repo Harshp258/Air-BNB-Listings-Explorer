@@ -7,7 +7,7 @@ const ListingDetails = ({ listing }) => {
   }
 
   return (
-    <Container>
+    <Container style={{ backgroundColor: 'white', padding: '20px' }}>
       <Row>
         
         <Col lg>
