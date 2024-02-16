@@ -18,7 +18,7 @@ export default function MainNav() {
               <Nav.Link style={navStyle}>Harsh Premium Listings</Nav.Link>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar-dark" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="top-fixed">
               <Link href="/" passHref legacyBehavior>
