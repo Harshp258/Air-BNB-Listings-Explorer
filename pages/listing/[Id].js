@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import useSWR from 'swr';
 import ListingDetails from '@/components/ListingDetails';
 import PageHeader from '@/components/PageHeader';
-
+import Error from 'next/error';
 const Listing = () => {
   const router = useRouter();
   const { Id } = router.query;
