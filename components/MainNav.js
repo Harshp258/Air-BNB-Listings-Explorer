@@ -15,7 +15,7 @@ export default function MainNav() {
         <Container>
           <Navbar.Brand style={{ color: "white" }}>
             <Link href="/" passHref legacyBehavior>
-              <Nav.Link style={navStyle}>Harsh's Premium Listings</Nav.Link>
+              <Nav.Link style={navStyle}>Harsh Premium Listings</Nav.Link>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-dark" />
