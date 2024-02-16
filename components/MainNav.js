@@ -22,13 +22,14 @@ export default function MainNav() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="top-fixed">
               <Link href="/" passHref legacyBehavior>
-                <Nav.Link style={navStyle}>Listings</Nav.Link>
+                <Nav.Link style={navStyle} className="d-md-block">Listings</Nav.Link>
               </Link>
               <Link href="/About" passHref legacyBehavior>
-                <Nav.Link style={navStyle}>About</Nav.Link>
+                <Nav.Link style={navStyle} className="d-md-block">About</Nav.Link>
               </Link>
             </Nav>
           </Navbar.Collapse>
+
         </Container>
       </Navbar>
     </>
