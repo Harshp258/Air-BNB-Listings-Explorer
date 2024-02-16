@@ -9,14 +9,12 @@ const Listing = () => {
   const { Id } = router.query;
   const { data, error, isValidating } = useSWR(`https://listingsapi1.onrender.com/api/listings/${Id}`);
 
-  // Error handling
   useEffect(() => {
     if (error) {
       console.error("Error fetching listing:", error);
     }
   }, [error]);
 
-  // If Data not available
   useEffect(() => {
     if (!data) {
       console.error("Listing data not available.");
@@ -24,14 +22,13 @@ const Listing = () => {
   }, [data]);
 
   if (isValidating) {
-    return <p>Loading...</p>;
+    return null; 
   }
 
-  if (error || !data) {
-    return <p>Listing not found. Please try again later.</p>;
+  if (!data || error ) {
+    return<Error statusCode={404} /> ; 
   }
-
-  const { name } = data;
+   const { name } = data;
 
   return (
     <div>
