@@ -11,7 +11,7 @@ export default function MainNav() {
 
   return (
     <>
-      <Navbar expand="sm" className="bg-dark">
+      <Navbar className="bg-dark">
         <Container>
           <Navbar.Brand style={{ color: "white" }}>
             <Link href="/" passHref legacyBehavior>
